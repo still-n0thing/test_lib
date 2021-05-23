@@ -1,0 +1,6 @@
+TODO : 
+1. Start working on documentation
+2. Create some basic modules.
+3. Work on tests.
+4. Learn how to upload to pypl
+
