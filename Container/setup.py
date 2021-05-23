@@ -7,7 +7,7 @@ setuptools.setup(
     name = "testlib",
     version = "0.0.1",
     author = "whymihere",
-    author_email = "himanshu12361@gmail.com",
+    author_email = "example@gmail.com",
     description = "A small example package",
     long_description = long_description,
     long_description_content_type="text/markdown",
