@@ -11,6 +11,7 @@ def bubble_sort(arr : List , simulation : bool = False) -> List:
 
     Parameters:
     arr(List) : Unsorted List 
+    simulation(bool) : to enable simulation (default argument is False) 
 
     Returns:
     arr(List) : Returns sorted List
