@@ -6,14 +6,14 @@ Default is simulation = False
 """
 from typing import List
 
-def bubble_sort(arr : List , simulation : bool = False) -> None:
+def bubble_sort(arr : List , simulation : bool = False) -> List:
     """Sorts A List using bubble sort algorithm
 
     Parameters:
     arr(List) : Unsorted List 
 
     Returns:
-    None : Function returns nothing
+    arr(List) : Returns sorted List
 
     """
 
