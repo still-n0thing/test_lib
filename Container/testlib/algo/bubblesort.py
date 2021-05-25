@@ -4,19 +4,39 @@ Worst-case performance: O(N^2)
 If you call bubble_sort(arr,True), you can see the process of the sort
 Default is simulation = False
 """
+from typing import List
 
+def bubble_sort(arr : List , simulation : bool = False) -> None:
+    """Sorts A List using bubble sort algorithm
 
-def bubble_sort(arr, simulation=False):
-    def swap(i, j):
+    Parameters:
+    arr(List) : Unsorted List 
+
+    Returns:
+    None : Function returns nothing
+
+    """
+
+    def swap(i : int, j : int) -> None:
+        """Swaps two element of List 
+
+        Parameters:
+        i(int) : index of first element
+        j(int) : index of second element
+
+        Returns:
+        None : Function returns nothing
+
+        """
         arr[i], arr[j] = arr[j], arr[i]
 
-    n = len(arr)
-    swapped = True
+    n : int = len(arr)
+    swapped : bool = True
     
-    iteration = 0
+    iteration : int = 0
     if simulation:
         print("iteration",iteration,":",*arr)
-    x = -1
+    x : int = -1
     while swapped:
         swapped = False
         x = x + 1
